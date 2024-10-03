@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Menu</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <style>
+        /*menu box below*/
+        .item-gallery{
+            display:flex;
+            gap:4rem;
+            justify-content: center;
+            align-items: center;
+            width:97.5vw;
+            padding:2rem;
+            border: 1px #ffcad4;
+            background-color: #fff8f0;
+        }
+        section div:hover{
+            background-color:#fca4c0;
+            border-radius: 1rem;
+        }
+        .card{
+            border: 1px solid #ffcad4;
+            background-color: #ffcad4;
+            padding: 1rem;
+            border-radius: 0.2rem;
+        }
+        .price{
+            font-weight: 800;
+            font-size: 20px;
+            color: black;
+            margin-bottom: 1rem;
+        }
+        .card h3{
+            margin-bottom: 1rem;
+            font-family: system-ui;
+            text-transform: uppercase;
+            font-size: 1.5rem;
+            text-align: center;
+        }
+        /*menu box end*/
+        </style>
+    <body>
+        <nav class="flex-wrapper">
+            <a href="#" class="item1"><img src="./images/bow.png" alt="logo" width="50px"></a>
+            <a href="./home.html" class="item"><img src="./images/home.png" alt="home icon" width="50px"></a>
+            <a href="./about.html" class="item"><img src="./images/about.png" alt="about icon" width="50px"></a>
+            <a href="./menu.html" class="item"><img src="./images/menu.png" alt="menu icon" width="50px"></a>
+        </nav>
+        <h1>MENU</h1>
+        <section class="item-gallery">
+            <div class="card">
+                <p class="price">$8.00/16</p>
+                <h3>Chocolate Strawberries</h3>
+                <div class="card-image">
+                    <img src="./images/strawberries.jpg" alt="strawberries" width="300px" height="400px">
+                </div>
+            </div>
+            <div class="card">
+                <p class="price">$35.00</p>
+                <h3>Strawberry Cake</h3>
+                <div class="card-image">
+                    <img src="./images/cake.jpg" alt="cake" width="300px" height="400px">
+                </div>
+            </div>
+            <div class="card">
+                <p class="price">$5.00</p>
+                <h3>Strawberry Mochi</h3>
+                <div class="card-image">
+                    <img src="./images/mochi.jpg" alt="mochi" width="300px" height="400px">
+                </div>
+            </div>
+            <div class="card">
+                <p class="price">$7.50</p>
+                <h3>Strawberry Shake</h3>
+                <div class="card-image">
+                    <img src="/images/milkshake.jpg" alt="shake" width="300px" height="400px">
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
